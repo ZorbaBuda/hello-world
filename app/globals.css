@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+
+    .center {
+        @apply flex flex-col items-center;
+    }
+
+    .title {
+        @apply text-white bg-gray-600 rounded-md text-2xl text-center mb-8 ;
+    }
+
+    .blue-square {
+        @apply w-[150px] h-[150px] rounded-3xl bg-blue-700;
+    }
+}
