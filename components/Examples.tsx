@@ -2,6 +2,32 @@
 
 import { motion } from "framer-motion";
 
+export function WhileTap() {
+  return (
+    <div className="center">
+      <div className="title">While Tap</div>
+      <motion.div
+         className="blue-square cursor-pointer"
+         whileTap={{ rotate: 90, scale: 0.75 }}
+      />
+      </div>
+  );
+}
+
+
+// Add one line of code to create a whileHover animation between 
+//two states.
+export function WhileHover() {
+  return (
+    <div className="center">
+      <div className="title">While Hover</div>
+      <motion.div
+         className="blue-square"
+          whileHover={{ scale: 0.8 }}
+      />
+      </div>
+  );
+}
 
 // When using repeat, you can add a repeatType of "reverse" to make 
 // the animation go back and forth.

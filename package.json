@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.3.17",
+    "iron-session": "^8.0.2",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
